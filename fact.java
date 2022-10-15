@@ -6,7 +6,7 @@ class fact {
         if(n<0){
             System.out.println("invaild number");
         }
-        int factorial= 0;   
+        int factorial= 1;   
         for(int i=n; i>=1; i--){
             factorial= factorial*i;
         }
