@@ -1,5 +1,5 @@
 public class Sorted {
-    public static void isSorted(int arr[], int idx){
+    public static Boolean isSorted(int arr[], int idx){
         //base condition
         if(idx==arr.length-1){
             return true;
